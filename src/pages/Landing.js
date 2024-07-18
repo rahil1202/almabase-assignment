@@ -13,7 +13,8 @@ const Landing = () => {
             <Link
               to="https://github.com/rahil1202/almabase-assignment"
               className="text-gray-300 hover:text-white"
-              target="_blank"
+              target="_blank" rel="noopener noreferrer"
+              alt="Repository"
             >
               Repository
             </Link>
@@ -21,7 +22,7 @@ const Landing = () => {
         </div>
       </div>
       
-        <main className="flex-grow flex flex-col items-center justify-center px-4 text-center">
+      <main className="flex-grow flex flex-col items-center justify-center px-4 text-center">
         <h1 className="text-5xl font-bold text-white mb-6 leading-tight max-w-3xl">
           Revolutionize Your Form Building with Drag-and-Drop Simplicity
         </h1>
@@ -34,7 +35,8 @@ const Landing = () => {
           </button>
         </Link>
       </main>
-        <footer className="w-full py-6">
+
+      <footer className="w-full py-6">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between">
           <p className="text-gray-400 text-sm mb-4 sm:mb-0">
              © 2024 Rahil Vahora <span className="mx-1">| Made with </span>
@@ -46,6 +48,7 @@ const Landing = () => {
               href="https://github.com/rahil1202"
               target="_blank"
               rel="noopener noreferrer"
+              alt="Github"
               className="text-gray-400 hover:text-white transition duration-300"
             >
               <FaGithub className="text-xl" />
@@ -55,6 +58,7 @@ const Landing = () => {
               href="https://linkedin.com/in/rahil-vahora"
               target="_blank"
               rel="noopener noreferrer"
+              alt="Linkedin"
               className="text-gray-400 hover:text-white transition duration-300"
             >
               <FaLinkedin className="text-xl" />

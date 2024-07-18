@@ -38,6 +38,7 @@ export default function App() {
               href="https://github.com/rahil1202"
               target="_blank"
               rel="noopener noreferrer"
+              alt="Github" 
               className="text-gray-400 hover:text-black transition duration-300"
             >
               <FaGithub className="text-xl" />
@@ -47,6 +48,7 @@ export default function App() {
               href="https://linkedin.com/in/rahil-vahora"
               target="_blank"
               rel="noopener noreferrer"
+              alt="Linkedin"
               className="text-gray-400 hover:text-black transition duration-300"
             >
               <FaLinkedin className="text-xl" />
