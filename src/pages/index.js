@@ -10,6 +10,7 @@ import {
   Text,
 } from "../components/editor/elements";
 import { FaHeart } from "react-icons/fa";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 export default function App() {
   return (
@@ -25,18 +26,35 @@ export default function App() {
             {/* Main content area */}
             <EditorScreen />
             {/* Footer */}
-            <footer className="bg-white mt-10 mb-4 text-center text-sm text-black">
-              Developed by{" "}
-              <a
-                href="https://github.com/rahil1202"
-                target="_blank"
-                rel="noreferrer"
-                className="ml-1 text-blue-400 hover:underline"
-              >
-                Rahil Vahora
-              </a>{" "}
-              <FaHeart className="inline text-red-500 ml-1" />
-            </footer>
+            <footer className="w-full py-6">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between">
+          <p className="text-gray-400 text-sm mb-4 sm:mb-0">
+             © 2024 Rahil Vahora <span className="mx-1">| Made with </span>
+          
+            <FaHeart className="inline text-red-500" />
+          </p>
+          <div className="flex space-x-4">
+            <a
+              href="https://github.com/rahil1202"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-400 hover:text-black transition duration-300"
+            >
+              <FaGithub className="text-xl" />
+            </a>
+
+            <a
+              href="https://linkedin.com/in/rahil-vahora"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-400 hover:text-black transition duration-300"
+            >
+              <FaLinkedin className="text-xl" />
+            </a>
+
+          </div>
+        </div>
+      </footer>
           </div>
           {/* Toolbox component for the editor */}
           <Toolbox />
